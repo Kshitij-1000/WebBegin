@@ -1,0 +1,105 @@
+.robot{
+  width: 200px;
+  height: 121px;
+}
+.background2{
+  background: rgba(0, 0, 0, 0.7) url('../images/i4.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.mainbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, serif;
+  margin: auto;
+  height: 80%;
+}
+.firstSection{
+  height : 100vh;
+}
+.firsthalf{
+  width: 50%;
+  height: 70%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.textBig{
+  font-size: 41px;
+}
+.textSmall{
+  font-size: 20px;
+}
+.btn1{
+  padding: 8px 15px;
+  color: darkblue;
+  font-size: 15px;
+  border-color: white;
+  border-radius: 10px;
+  background: none;
+  color: white;
+  cursor:pointer;
+  margin: 3px;
+}
+.btn1:hover{
+  background-color:white;
+  color:black;
+  cursor:pointer;
+}
+.secondHalf{
+  height: 70%;
+  padding: 6px;
+}
+.secondHalf img{
+    border-radius: 40px;
+    border:5px solid white;
+    display:block;
+    margin:auto;
+}
+.section1{
+  display: flex;
+  margin: 71px;
+  padding: 10px;
+  align-items: center;
+}
+.para{
+  padding:0px 30px
+}
+.tree{
+  width: 300px;
+  border-radius: 19px;
+}
+.section-left{
+  flex-direction: row-reverse;
+}
+
+.contactsheet{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 8px;
+}
+.background3{
+  background: rgba(0, 0, 0, 0.7) url('../images/i5.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  text-align: center;
+  color: white;
+}
+.contact h2{
+  padding:9px;
+}
+.contactsheet input{
+  margin: 9px;
+  border-radius: 8px;
+  padding: 9px;
+  width: 300px;
+}
+.btn-1{
+  padding: 6px;
+  margin: 20px;
+  width: 128px;
+}
